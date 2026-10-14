@@ -1,0 +1,59 @@
+{
+  "id": "./",
+  "name": "Lumina Bíblia - Palavra Sagrada",
+  "short_name": "Lumina Bíblia",
+  "description": "A Palavra Sagrada em Alta Definição: leitura bíblica, devocional de 365 dias e histórias infantis, com funcionamento offline.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "categories": ["books", "education", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Leitura Bíblica",
+      "short_name": "Leitura",
+      "description": "Abrir o capítulo de hoje",
+      "url": "./index.html?tab=reader",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Devocional Diário (365)",
+      "short_name": "Devocional",
+      "description": "Versículo e reflexão do dia",
+      "url": "./index.html?tab=devotional",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Histórias Contadas",
+      "short_name": "Histórias",
+      "description": "Contos para crianças",
+      "url": "./index.html?tab=stories",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
